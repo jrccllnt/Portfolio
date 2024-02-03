@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f1e5; 
+    color: #604c4c; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+#header {
+    background-color: #ddc0a5; 
+    color: #604c4c;
+    padding: 30px 0;
+}
+
+#header .brand h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#header .nav-list ul {
+    list-style: none;
+}
+
+#header .nav-list ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#header .nav-list ul li a {
+    color: #604c4c;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#header .nav-list ul li a:hover {
+    color: #ff5733;
+}
+
+/* Hero Section Styles */
+#hero {
+    background-color: #ff5733;
+    color: #f8f1e5; 
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#hero .cta {
+    display: inline-block;
+    background-color: #f8f1e5; 
+    color: #ff5733;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#hero .cta:hover {
+    background-color: #ddd;
+}
+
+/* Service Section Styles */
+#services {
+    padding: 100px 0;
+    text-align: center;
+}
+
+#services h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#services p {
+    margin-bottom: 40px;
+}
+
+.service-item {
+    margin-bottom: 40px;
+}
+
+.service-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 18px;
+}
+
+.service-item .icon {
+    margin-bottom: 20px;
+}
+
+/* Projects Section Styles */
+#projects {
+    padding: 100px 0;
+    background-color: #f8f1e5; 
+}
+
+#projects h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* About Section Styles */
+#about {
+    padding: 50px 0;
+}
+
+#about h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#about h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+#about .cta {
+    display: inline-block;
+    background-color: #ff5733;
+    color: #f8f1e5; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#about .cta:hover {
+    background-color: #ff8c66;
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #ddc0a5;
+    color: #f8f1e5; 
+    padding: 100px 0;
+}
+
+#contact h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    margin-bottom: 30px;
+}
+
+.contact-item h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.contact-item h2 {
+    font-size: 18px;
+}
+
+.contact-item .icon {
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+#footer {
+    background-color: #ff5733;
+    color: #f8f1e5;
+    text-align: center;
+}
+
+#footer h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#footer h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    margin-top: 20px;
+}
+
+.social-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-item a img {
+    width: 10px;
+    height: 15px;
+}
